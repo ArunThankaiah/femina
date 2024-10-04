@@ -347,6 +347,13 @@ section{
     font-size: 14px;
     transition: all .45s ease;
 }
+.list li a i{
+    font-size: 14px;
+    padding-right: 10px;
+}
+.list li a i:hover{
+    color: unset;
+}
 .list li a:hover{
     color: var(--text-color);
     transform: translateY(5px);
