@@ -252,6 +252,7 @@ section{
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
+    overflow: hidden;
 }
 .row{
     position: relative;
@@ -518,9 +519,11 @@ section{
     .home-text h3{
         font-size: 1.5rem;
     }
-    .layer p{
-       
-        font-size: 0.7rem;
-        
+    .layer p{ 
+        font-size: 0.6rem; 
+        line-height: 1.5;
+    }
+    .protfolio-content{
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     }
 }
