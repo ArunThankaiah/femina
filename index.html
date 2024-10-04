@@ -16,7 +16,7 @@
     <!-- header section -->
     <header>
         <a href="#" class="logo"> FEMINA <span>KM</span></a>
-        <ul class="navlist">
+        <ul class="navlist" id="navlist">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -267,6 +267,12 @@
     <script>
         const allYear = new Date().getFullYear();
         document.getElementById('year').textContent =allYear;
+
+        document.getElementById("menu-icon").addEventListener("click", function() {
+    const navlist = document.getElementById("navlist");
+    navlist.classList.toggle("active"); // Toggle the active class
+});
+
     </script>
 </body>
 
