@@ -56,7 +56,7 @@ function sendEmail(name, email, phone, message) {
     };
 
     // Send a request to your server-side script to send the email
-    fetch("send-email.php", { // Replace with your server-side script
+    fetch("email.php", { // Replace with your server-side script
         method: "POST",
         headers: {
             "Content-Type": "application/json"
