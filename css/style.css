@@ -14,7 +14,7 @@
     --second-bg-color: #202020 ;
     --text-color: #fff ;
     --second-color: #ccc;
-    --main-color: #05b4ff;
+    --main-color: #3DB8D9;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -183,6 +183,14 @@ section{
 .services{
     background: var(--second-bg-color);
 }
+.line-service{
+   float: right;
+   margin-top: 2rem;
+}
+.line-service h4{
+    color: var(--second-color);
+}
+
 .main-text{
     text-align: center;
 }
@@ -225,6 +233,7 @@ section{
     line-height: 1.8;
     margin-bottom: 25px;
 }
+
 .box:hover{
     transform: translateY(-8px);
     cursor: pointer;
@@ -267,6 +276,7 @@ section{
     font: 20px;
     font-weight: 600;
     margin-bottom: 15px;
+    padding-top: 10px;
 }
 .layer p{
     color: var(--p-color);
