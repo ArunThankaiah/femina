@@ -23,6 +23,9 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
+i:hover{
+    color: var(--main-color);
+}
 header{
     position: fixed;
     width: 100%;
@@ -176,7 +179,7 @@ section{
 .about-text p{
     color: var(--second-color);
     font-size: var(--p-font);
-    font-family: cursive;
+    font-family: cursiv;
     line-height: 1.8;
     margin-bottom: 4rem;
 }
@@ -253,6 +256,7 @@ section{
 }
 .row img{
     width: 100%;
+    
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
@@ -280,8 +284,9 @@ section{
 }
 .layer p{
     color: var(--p-color);
-    font-size: 1rem;
-    line-height: 1.8;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    
 }
 .layer i{
     color:  var(--main-color);
@@ -414,6 +419,10 @@ section{
 .top i:hover{
     transform: translateY(-8px);
 }
+.last-text p a{
+    color: var(--main-color);
+    
+}
 @media (max-width:1480px){
     header{
         padding: 12px 2.5%;
@@ -492,5 +501,10 @@ section{
     }
     .home-text h3{
         font-size: 1.5rem;
+    }
+    .layer p{
+       
+        font-size: 0.7rem;
+        
     }
 }
